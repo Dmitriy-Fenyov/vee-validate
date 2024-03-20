@@ -1,4 +1,4 @@
-# hello-world
+# Vee-Validate
 
 ## Project setup
 ```
