@@ -27,7 +27,6 @@
 import { Field, Form, ErrorMessage, configure } from 'vee-validate';
 
 configure({
-  validateOnBlur: false,
   validateOnChange: false,
 });
 
@@ -87,14 +86,13 @@ body {
 .error {
   display: block;
   margin: 10px 0;
-  text-align: left;
   color: #f00;
 }
 
 input {
   box-sizing: border-box;
   width: 100%;
-  padding: 8px;
+  padding: 10px;
 }
 
 .agreement {
@@ -114,10 +112,9 @@ button {
   margin-top: 15px;
   padding: 12px 36px;
   color: #fff;
-  background: #ff587f;
+  background: #ff5a7b;
   border: none;
   border-radius: 20px;
-  cursor: pointer;
 }
 
 .is-invalid {
